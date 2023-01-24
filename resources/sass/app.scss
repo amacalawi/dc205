@@ -1,0 +1,166 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    margin-top: calc(50vh - 214.855px);
+    // margin: 115px auto;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #6c757d;
+    letter-spacing: 1px;
+}
+
+.form-signin.register {
+    margin-top: calc(50vh - 272.855px);
+}
+
+.form-signin.register input#fullname {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin.register input#email,
+.form-signin.register input#password {
+    border-radius: 0;
+}
+
+.sidebar-theme {
+    background: #196ab4 !important;
+}
+
+.navbar-theme {
+    background: #02aff0 !important;
+}
+
+.fas.fa-heart:hover {
+    color: #f44336 !important;
+}
+
+.fas.fa-share-alt:hover {
+    color: #0d47a1 !important;
+}
+
+.card {
+    --mdb-card-spacer-y: 1.5rem;
+    --mdb-card-spacer-x: 1.5rem;
+    --mdb-card-title-spacer-y: 0.5rem;
+    --mdb-card-border-width: 1px;
+    --mdb-card-border-color: var(--mdb-border-color-translucent);
+    --mdb-card-border-radius: 0.5rem;
+    --mdb-card-box-shadow: 0 2px 15px -3px rgba(0,0,0,0.07),0 10px 20px -2px rgba(0,0,0,0.04);
+    --mdb-card-inner-border-radius: calc(0.5rem - 1px);
+    --mdb-card-cap-padding-y: 0.75rem;
+    --mdb-card-cap-padding-x: 1.5rem;
+    --mdb-card-cap-bg: hsla(0,0%,100%,0);
+    --mdb-card-bg: #fff;
+    --mdb-card-img-overlay-padding: 1.5rem;
+    --mdb-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--mdb-card-height);
+    word-wrap: break-word;
+    background-color: var(--mdb-card-bg);
+    background-clip: border-box;
+    border: var(--mdb-card-border-width) solid var(--mdb-card-border-color);
+    border-radius: var(--mdb-card-border-radius);
+    box-shadow: var(--mdb-card-box-shadow);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    max-height: 180px;
+}
+
+.card a.btn {
+    text-decoration: none;
+    box-shadow: var(--mdb-btn-box-shadow);
+}
+
+.link-danger:focus, .link-danger:hover {
+    margin-top: 5px;
+    color: #de556c!important;
+}
+
+.btn:hover {
+    color: var(--mdb-btn-hover-color);
+    background-color: #f5f5f5;
+    border-color: #00000000;
+}
+
+i.fa-heart {
+    cursor: pointer;
+}
+
+i.fa-heart.active {
+    color: #de556c!important;
+}
+
+.card-text img {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.btn.btn-secondary:hover {
+    background: #5c636a !important;
+    color: #fff !important;
+}
+
+.btn.btn-primary:hover {
+    background: #0b5ed7 !important;
+    color: #fff !important;
+}
